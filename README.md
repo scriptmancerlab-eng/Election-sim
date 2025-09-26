@@ -8,6 +8,7 @@ A Python project to simulate elections with various electoral systems.
 - **Flexible Percentage Input:** Assign a support percentage to each party; includes a warning if percentages don't sum to 100%.
 - **Winner/Loser Calculation:** Automatically determines the party with the highest (winner) and lowest (loser) support.
 - **Multiple Electoral Systems:** Choose between First Past The Post (FPTP) and Proportional Representation (PR). Additional systems coming soon.
+- **Number of Voters** (recently added): You can assign the number of voters that participated in the election, and the number will be assigned to the corresponding percentage
 
 ### Usage
 1. Install EXE

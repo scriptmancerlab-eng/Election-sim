@@ -21,23 +21,32 @@ A Python project to simulate elections with various electoral systems.
 
 ### Example Output
 ```
-Total seats in parliament: 100
-How many parties? 3
-Enter party name: Red
-Support for Red (0-100): 40
-Enter party name: Blue
-Support for Blue (0-100): 35
-Enter party name: Green
-Support for Green (0-100): 25
+Enter number of voters: 125345
+Total seats in parliament: 200
+How many parties? 5
+Enter party name: Party 1
+Support for Party 1 (0-100): 50
+Enter party name: Party 2
+Support for Party 2 (0-100): 25
+Enter party name: Party 3
+Support for Party 3 (0-100): 10
+Enter party name: Party 4
+Support for Party 4 (0-100): 10
+Enter party name: Party 5
+Support for Party 5 (0-100): 5
 
 Parties involved in the election:
-         Red: 40.00%
-        Blue: 35.00%
-       Green: 25.00%
+     Party 1: 50.00%  →  62672 voters
+     Party 2: 25.00%  →  31336 voters
+     Party 3: 10.00%  →  12534 voters
+     Party 4: 10.00%  →  12534 voters
+     Party 5: 5.00%  →  6267 voters
 Sum of percentages = 100.00%
 
-Winner: Red with 40.00%
-Loser: Green with 25.00%
+Winner: Party 1 has a majority!
+
+Winner: Party 1 with 50.00%
+Loser: Party 5 with 5.00%
 
 Select electoral system:
 1. First Past The Post (FPTP)
@@ -45,9 +54,11 @@ Select electoral system:
 Enter your choice (1 or 2): 2
 
 Seat Allocation:
-         Red: 40 seats
-        Blue: 35 seats
-       Green: 25 seats
+     Party 1: 100 seats
+     Party 2: 50 seats
+     Party 3: 20 seats
+     Party 4: 20 seats
+     Party 5: 10 seats
 ```
 
 ### Planned Improvements
